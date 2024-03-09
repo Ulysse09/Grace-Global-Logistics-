@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@485&family=Roboto:wght@400;500;700&family=Rubik:wght@300&family=Sora:wght@386&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.yellow {
+  background-image: url("./assets/10004.jpeg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6) contrast(1);
+  position: relative;
+  top: 0rem;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: 1;
+}
+
+.bg-image-2 {
+  background-image: url("./assets/ship2.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.9);
+  top: 0rem;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
