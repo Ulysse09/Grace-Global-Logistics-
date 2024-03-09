@@ -15,7 +15,7 @@ const Form = () => {
 
     if (name && email && text && subject) {
       axios
-        .post("http://localhost:3001/send-email", {
+        .post("https://blu-channel-backend.onrender.com/send-email", {
           email,
           name,
           subject,
@@ -24,6 +24,12 @@ const Form = () => {
         .then(() => {
           toast.success("Email sent succesfully");
           console.log("Email sent succesfully");
+          setEmail("")
+          setName("")
+          setSubject("")
+          setText("")
+          
+          
         })
         .catch((error) => {
           console.error("Error sending email", error);
