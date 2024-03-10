@@ -1,4 +1,4 @@
-import logo from "../../assets/blue1.png";
+import logo from "../../assets/Blue1.png";
 import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
