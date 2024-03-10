@@ -93,7 +93,7 @@ const About = () => {
       </div>
 
       <div className=" bg-sky-900 font-roboto w-full xl:h-[19rem] justify-evenly  ">
-        <div className="md:flex md:justify-evenly px-[5rem]   h-full md:pt-20 md:pb-20 px-0 py-8 container mx-auto">
+        <div className="md:flex md:justify-evenly px-[2rem]   h-full md:pt-20 md:pb-20 px-0 py-8 container mx-auto">
           <div className=" md:w-[40rem] xl:h-36 flex items-center space-x-6  ">
             <h1 className=" text-4xl font-semibold text-white outline outline-1 p-4 rounded-md">
               M
