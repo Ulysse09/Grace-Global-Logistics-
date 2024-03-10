@@ -63,7 +63,7 @@ function App() {
                     alt=""
                   />
 
-                  <div className="lg:w-1/2 absolute top-[5rem]    lg:top-[15rem] flex flex-col items-center  lg:left-[3rem] space-y-8   ">
+                  <div className="lg:w-1/2 absolute top-[5rem] left-[1.5rem]   lg:top-[15rem] flex flex-col items-center  lg:left-[3rem] space-y-8   ">
                     <h2 className="text-white text-center text-4xl lg:text-5xl   max-w-sm lg:max-w-sm font-bold font-roboto">
                       {item.text}
                     </h2>
