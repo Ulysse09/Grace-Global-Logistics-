@@ -28,7 +28,7 @@ const About = () => {
       {/* header image */}
       <div className="backgroundImage  -z-10 bg-cover bg-bottom relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
-        <div className="pt-34  ">
+        <div className="pt-34 lg:pt-52  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
             <span className="">
               <h1 className=" pb-10 text-white text-4xl lg:text-[2.7rem] font-bold  w-100 h-16   mt-4">
@@ -49,12 +49,10 @@ const About = () => {
       <div className=" w-full pt-[4rem] bg-slate-100 bg-gradient-to-b from-white">
         <div className="md:flex justify-evenly   md:h-[30rem]">
           <div className=" font-roboto md:w-[37rem] pl-6 md:h-[29rem]">
-            <p className="font-normal text-md tracking-wide">
-              ABOUT FABLAB RWANDA
-            </p>
+           
             {/* </div> */}
-            <h1 className="mt-[0.5rem] text-[1.8rem] font-semibold">
-              Who we are
+            <h1 className="mt-[0.5rem] text-[1.8rem] text-sky-900 font-semibold">
+              What we are about ?
             </h1>
             <p className="mt-[1.2rem]">
               FabLab Rwanda is a space for members to turn innovative ideas into
@@ -95,7 +93,7 @@ const About = () => {
       </div>
 
       <div className=" bg-sky-900 font-roboto w-full xl:h-[19rem] justify-evenly  ">
-        <div className="md:flex md:justify-evenly   h-full md:pt-20 md:pb-20 px-0 py-8 container mx-auto">
+        <div className="md:flex md:justify-evenly px-[5rem]   h-full md:pt-20 md:pb-20 px-0 py-8 container mx-auto">
           <div className=" md:w-[40rem] xl:h-36 flex items-center space-x-6  ">
             <h1 className=" text-4xl font-semibold text-white outline outline-1 p-4 rounded-md">
               M
@@ -142,7 +140,7 @@ const About = () => {
         Why choose us
       </h1>
       <div className="md:flex font-roboto xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-100  rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
+        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
           <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  w-24 h-24 rounded-full flex items-center justify-center mt-6  ml-auto mr-auto ">
             <IoIosTimer className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
           </div>
@@ -161,7 +159,7 @@ const About = () => {
             enjoyable working environment for our employees.
           </p>
         </div>
-        <div className=" group p-5 md:w-[70rem]  border-2 border-gray-100 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
+        <div className=" group p-5 md:w-[70rem]  border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
           <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center ml-auto mr-auto mt-6">
             <RiGlobalLine className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
           </div>
@@ -173,7 +171,7 @@ const About = () => {
             is able to meet customers needs and deliver on time.
           </p>
         </div>
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-100 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
+        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
           <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  flex items-center justify-center w-24 h-24 rounded-full ml-auto mr-auto mt-6">
             <MdDeliveryDining className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
           </div>
