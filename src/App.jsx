@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       {/* carousell */}
-      <div className="relative   ">
+      <div className="relative slideinRight    ">
         <Carousel
           animationHandler="fade"
           swipeable={false}
@@ -100,7 +100,7 @@ function App() {
       {/* About us */}
 
       <div className="  flex justify-center items-center flex-col  bg-[#F3F5F5]  lg:space-y-0 mt-[-2.5rem] space-y-[3rem] ">
-        <h2 className="text-center text-[#3A3A3A] flex justify-center max-w-xl lg:max-w-xl  text-3xl font-bold mb-10 mt-12 ">
+        <h2 className="text-center fadeInDown text-[#3A3A3A] flex justify-center max-w-xl lg:max-w-xl  text-3xl font-bold mb-10 mt-12 ">
           Blue Channel logistics efficiently connecting businesses worldwide
         </h2>
         <div className="flex lg:flex-row flex-col space-y-20 lg:items-center px-[2rem]  lg:space-x-[5rem] lg:container lg:mx-auto">

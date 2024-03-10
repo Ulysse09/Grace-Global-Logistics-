@@ -1,8 +1,10 @@
+import black from "../../assets/black.png";
+
 const Footer = () => {
-    {
-      /* footer black --> */
-    }
-return (
+  {
+    /* footer black --> */
+  }
+  return (
     <div class="bg-black">
       {/* flex-container --> */}
       <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:space-y-0">
@@ -12,9 +14,7 @@ return (
           </div>
           {/* logo container --> */}
           <div>
-            <h1 class="font-Rubik font-bold text-3xl text-white ">
-              Kabalisa Paul
-            </h1>
+            <img src={black} className="h-[12rem]" alt="" />
           </div>
           {/* social links container --> */}
           <div class="flex justify-center space-x-4">
@@ -90,9 +90,7 @@ return (
         </div>
       </div>
     </div>
+  );
+};
 
-)
-    
-}
-
-export default Footer   
+export default Footer;

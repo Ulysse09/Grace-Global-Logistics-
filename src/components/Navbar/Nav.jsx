@@ -1,4 +1,4 @@
-import logo from "../../assets/tai.png";
+import logo from "../../assets/blue1.png";
 import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
@@ -12,9 +12,9 @@ const Nav = () => {
   };
 
   return (
-    <nav className="flex items-center p-4  w-full lg:fixed bg-white z-10  lg:px-[10rem] justify-between">
+    <nav className="flex  slideinLeft  items-center p-4  w-full lg:fixed bg-white z-10  lg:px-[10rem] justify-between">
       <Link to={"/"}>
-        <img src={logo} alt="" className="h-[10vh]" />
+        <img src={logo} alt="" className="h-[15vh] w-[8vw] rounded-full" />
       </Link>
       <div className="lg:flex hidden  items-center space-x-4 justify-between   ">
         <ul className="flex font-roboto font-semibold space-x-4 ">
