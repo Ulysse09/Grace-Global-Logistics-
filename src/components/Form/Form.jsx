@@ -9,9 +9,11 @@ const Form = () => {
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
   const [text, setText] = useState("");
+  const [isLoading, setIsLoading] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    setIsLoading(true);
 
     if (name && email && text && subject) {
       axios
@@ -24,30 +26,25 @@ const Form = () => {
         .then(() => {
           toast.success("Email sent succesfully");
           console.log("Email sent succesfully");
-          setEmail("")
-          setName("")
-          setSubject("")
-          setText("")
-          
-          
+          setEmail("");
+          setName("");
+          setSubject("");
+          setText("");
         })
         .catch((error) => {
           console.error("Error sending email", error);
           toast.error("Error sending email");
         });
-    }
-    else return toast.error("Fill in the fields correctly");
- 
-  }
+    } else return toast.error("Fill in the fields correctly");
+  };
 
-    
   return (
     <>
       <ToastContainer />
       <div className="pb-8 relative">
         <div className="bg-image-2 " />
-        <div className="bg-white  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%] mt-[-52rem]   lg:top-[54rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[6rem] pb-[5rem] w-full">
-          <form className="flex flex-col px-8 py-0 md:w-2/3 space-y-10 ">
+        <div className=" bg-slate-100  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%] mt-[-52rem]   lg:top-[54rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[6rem] pb-[5rem] w-full">
+          <form className="flex flex-col px-8 py-0 md:w-2/3 space-y-10  ">
             <h2 className="text-[rgb(3,57,108)] text-2xl font-semibold font-roboto">
               Contact us
             </h2>
@@ -89,9 +86,9 @@ const Form = () => {
             <div className="">
               <button
                 onClick={(e) => handleSubmit(e)}
-                className="px-4 py-2 bg-[#055589] rounded-md text-white font-semibold"
+                className="px-4 py-2 bg-[#055589] focus:bg-black rounded-md text-white font-semibold"
               >
-                Send message
+                {isLoading ? "Sending mail..." : "Send mail"}
               </button>
             </div>
           </form>
@@ -101,14 +98,14 @@ const Form = () => {
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Address
               </h2>
-              <p className="text-[#3A3A3A]">KG 548 St, Kigali</p>
+              <p className="text-[#3A3A3A]">KK 64 Av, Kigali</p>
             </div>
 
             <div>
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Email
               </h2>
-              <p className="text-[#3A3A3A]">info@fablab.rw</p>
+              <p className="text-[#3A3A3A]">BlueChannel@gmail.rw</p>
             </div>
 
             <div>

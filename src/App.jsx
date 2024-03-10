@@ -20,6 +20,7 @@ import warehouse from "./assets/warehouse.jpg";
 import pack from "./assets/package.jpg";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Form/Form";
+import { Link } from "react-router-dom";
 
 function App() {
   const slide = [
@@ -56,18 +57,18 @@ function App() {
                 <div className="lg:mt-24      ">
                   <img
                     src={item.pic}
-                    className="lg:h-[100vh] h-[50vh] brightness-50  -z-40   object-cover object-bottom    
+                    className="lg:h-[100vh] h-[70vh] brightness-50  -z-40   object-cover object-bottom    
 
                       "
                     alt=""
                   />
 
                   <div className="lg:w-1/2 absolute top-[5rem] left-[2rem]   lg:top-[15rem] flex flex-col items-center  lg:left-[3rem] space-y-8   ">
-                    <h2 className="text-white text-2xl lg:text-5xl   max-w-xs lg:max-w-sm font-semibold font-roboto">
+                    <h2 className="text-white text-center text-4xl lg:text-5xl   max-w-sm lg:max-w-sm font-bold font-roboto">
                       {item.text}
                     </h2>
                     <div className="font-semibold font-roboto space-y-6 lg:ml-[2rem] text-white  ">
-                      <p className="text-normal font-roboto lg:max-w-sm max-w-xs text-center">
+                      <p className="text-normal font-roboto lg:max-w-sm text-sm font-normal  text-center">
                         Connecting Continents, Fast-tracking Success
                       </p>
                     </div>
@@ -77,30 +78,36 @@ function App() {
             );
           })}
         </Carousel>
-        <div className="flex flex-col  lg:flex-row space-y-4 lg:space-y-0   justify-center lg:space-x-4 absolute top-[15rem] lg:top-[30rem] left-[8rem] lg:left-[16rem]  z-50">
-          <button className="py-2 px-8 font-roboto text-white border-white border hover:bg-blue-300 transition-colors rounded-sm   ">
+        <div className="flex flex-col  lg:flex-row space-y-4 lg:space-y-0   justify-center lg:space-x-4 absolute top-[18rem] lg:top-[30rem] left-[8rem] lg:left-[16rem]  z-50">
+          <Link
+            to="about"
+            className="focus:bg-blue-400 py-2 px-8 font-roboto text-white border-white border hover:bg-blue-300 transition-colors rounded-sm   "
+          >
             About us
-          </button>
-          <button className="py-2 px-8   font-roboto text-white border-white border hover:bg-blue-300 transition-colors duration-300 rounded-sm">
-            Get a quote
-          </button>
+          </Link>
+          <Link
+            to="contact"
+            className="py-2 px-8   font-roboto text-white border-white border hover:bg-blue-300 transition-colors duration-300 rounded-sm"
+          >
+            Contact us
+          </Link>
         </div>
       </div>
 
       {/* About us */}
 
-      <div className="  flex justify-center items-center flex-col  bg-[#F3F5F5] space-y-6 lg:space-y-0 mt-[-2.5rem] ">
-        <h2 className="text-center text-[#3A3A3A] flex justify-center lg:max-w-xl  text-2xl font-semibold mb-10 mt-12 ">
+      <div className="  flex justify-center items-center flex-col  bg-[#F3F5F5]  lg:space-y-0 mt-[-2.5rem] space-y-[3rem] ">
+        <h2 className="text-center text-[#3A3A3A] flex justify-center max-w-xl lg:max-w-xl  text-3xl font-bold mb-10 mt-12 ">
           Blue Channel logistics efficiently connecting businesses worldwide
         </h2>
-        <div className="flex lg:flex-row flex-col lg:items-center px-[2rem]  lg:space-x-[5rem] lg:container lg:mx-auto">
+        <div className="flex lg:flex-row flex-col space-y-20 lg:items-center px-[2rem]  lg:space-x-[5rem] lg:container lg:mx-auto">
           <div className="lg:w-[50vw] md:w-[80vw]  lg:p-[5rem]   lg:space-y-4  ">
             <img src={truck} className="rounded-lg" alt="" />
             <p className="font-semibold text-[#3A3A3A] lg:text-left md:text-right text-center py-4 lg:py-0">
               We make almost anything{" "}
             </p>
           </div>
-          <div className="space-y-3 flex-col flex items-start ">
+          <div className="space-y-3 flex-col flex items-start  ">
             <h3 className="text-[#3A3A3A] font-bold ">MAKE ALMOST ANYTHING</h3>
             <div className="flex flex-col items-start">
               <h2 className="text-3xl text-[#03396C] font-semibold font-roboto ">
@@ -127,7 +134,7 @@ function App() {
       </div>
 
       {/*freight forwarding   */}
-      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem]">
+      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem] p-8">
         Our services
       </h1>
       <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between  lg:px-24 font-roboto">
