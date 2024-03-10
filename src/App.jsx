@@ -63,7 +63,7 @@ function App() {
                     alt=""
                   />
 
-                  <div className="lg:w-1/2 absolute top-[5rem] left-[2rem]   lg:top-[15rem] flex flex-col items-center  lg:left-[3rem] space-y-8   ">
+                  <div className="lg:w-1/2 absolute top-[5rem]    lg:top-[15rem] flex flex-col items-center  lg:left-[3rem] space-y-8   ">
                     <h2 className="text-white text-center text-4xl lg:text-5xl   max-w-sm lg:max-w-sm font-bold font-roboto">
                       {item.text}
                     </h2>
@@ -115,7 +115,7 @@ function App() {
               <h2 className="text-3xl text-[#03396C] lg:text-left text-center font-semibold font-roboto ">
                 Who Are We?
               </h2>
-              <p className=" lg:max-w-md max-w-xl md:text-left font-roboto  ">
+              <p className=" lg:max-w-md max-w-xl text-center md:text-left font-roboto  ">
                 FabLab Rwanda was established in May 12th, 2016, by ICT Chamber
                 in partnership with Rwanda Development Board (RDB), Japan
                 International Cooperation Agency (JICA), Ministry of Education,
@@ -139,7 +139,7 @@ function App() {
       </div>
 
       {/*freight forwarding   */}
-      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem] p-8">
+      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[1rem] p-8">
         Our services
       </h1>
       <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between  lg:px-24 font-roboto">
