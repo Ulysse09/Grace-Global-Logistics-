@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       {/* header image */}
-      <div className="backgroundImage -z-10 bg-cover bg-center relative bg-blue-600 ">
+      <div className="backgroundImage -z-10 bg-cover bg-bottom relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
         <div className="pt-52  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">

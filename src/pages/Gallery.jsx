@@ -1,14 +1,14 @@
 import React from "react";
 import ship2 from "../assets/ship2.jpg";
- import air from "../assets/air.jpg";
- import trucks from "../assets/trucks.jpg";
+import air from "../assets/air.jpg";
+import trucks from "../assets/trucks.jpg";
 import PhotoAlbum from "react-photo-album";
 
 const Gallery = () => {
   const photos = [
     {
       width: 500,
-      src:  trucks,
+      src: trucks,
       height: 500,
     },
     {
@@ -25,7 +25,7 @@ const Gallery = () => {
   return (
     <>
       {/* header image */}
-      <div className="backgroundImage -z-10 bg-cover bg-center relative bg-blue-600 ">
+      <div className="backgroundImage2 -z-10 bg-cover bg-top relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
         <div className="pt-52  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
@@ -44,13 +44,7 @@ const Gallery = () => {
       </div>
 
       <div className="mt-4">
-        <PhotoAlbum
-          
-          photos={photos}
-          layout="columns"
-          
-          columns={3}
-        />
+        <PhotoAlbum photos={photos} layout="columns" columns={3} />
       </div>
     </>
   );

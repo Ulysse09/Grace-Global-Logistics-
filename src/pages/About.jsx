@@ -1,4 +1,3 @@
-
 import { IoIosTimer } from "react-icons/io";
 import { RiGlobalLine } from "react-icons/ri";
 import { MdDeliveryDining } from "react-icons/md";
@@ -11,28 +10,28 @@ const About = () => {
     {
       name: "Paul",
       mainImage: ship2,
-      title:"CEO"
+      title: "CEO",
     },
     {
       name: "Laup",
       mainImage: air,
-      title:"CTO"
+      title: "CTO",
     },
     {
       name: "Cena",
       mainImage: trucks,
-      title:"COO"
+      title: "COO",
     },
   ];
   return (
     <>
       {/* header image */}
-      <div className="backgroundImage -z-10 bg-cover bg-center relative bg-blue-600 ">
+      <div className="backgroundImage  -z-10 bg-cover bg-bottom relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
-        <div className="pt-52  ">
+        <div className="pt-34  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
             <span className="">
-              <h1 className=" pb-10 text-white text-[2.7rem] font-bold  w-100 h-16 text-6xl mt-4">
+              <h1 className=" pb-10 text-white text-4xl lg:text-[2.7rem] font-bold  w-100 h-16   mt-4">
                 About Us{" "}
               </h1>
             </span>
