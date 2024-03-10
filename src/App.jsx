@@ -104,7 +104,7 @@ function App() {
           <div className="lg:w-[50vw] md:w-[80vw]  lg:p-[5rem]   lg:space-y-4  ">
             <img src={truck} className="rounded-lg" alt="" />
             <p className="font-semibold text-[#3A3A3A]  lg:text-left md:text-right text-center py-4 lg:py-0">
-              We make almost anything{" "}
+              Rwanda's trusted logistic partner{" "}
             </p>
           </div>
           <div className="space-y-3 flex-col flex lg:items-start items-center   ">
