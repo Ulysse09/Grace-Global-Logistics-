@@ -1,4 +1,4 @@
-import black from "../../assets/black.png";
+import black from "../../assets/Black.png";
 
 const Footer = () => {
   {
