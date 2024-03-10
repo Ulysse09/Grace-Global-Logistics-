@@ -36,8 +36,8 @@ const About = () => {
               </h1>
             </span>
             <span>
-              <p className=" text-white text-[1.5rem] font-semibold mt-4">
-                We make almost anything
+              <p className=" text-white text-xl lg:text-2xl font-light font-roboto mt-4">
+                Connecting Continents, Fast-tracking Success
               </p>
             </span>
           </div>
@@ -49,7 +49,6 @@ const About = () => {
       <div className=" w-full pt-[4rem] bg-slate-100 bg-gradient-to-b from-white">
         <div className="md:flex justify-evenly   md:h-[30rem]">
           <div className=" font-roboto md:w-[37rem] pl-6 md:h-[29rem]">
-           
             {/* </div> */}
             <h1 className="mt-[0.5rem] text-[1.8rem] text-sky-900 font-semibold">
               What we are about ?

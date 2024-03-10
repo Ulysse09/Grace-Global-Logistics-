@@ -27,8 +27,8 @@ const Services = () => {
               </h1>
             </span>
             <span>
-              <p className=" text-white text-[1.5rem] font-semibold mt-4">
-                We make almost anything
+              <p className=" text-white text-xl lg:text-2xl font-light font-roboto mt-4">
+                Connecting Continents, Fast-tracking Success
               </p>
             </span>
           </div>
@@ -174,9 +174,7 @@ const Services = () => {
         </div>
       </div>
 
-       {/*  */}
-
-       
+      {/*  */}
     </>
   );
 };

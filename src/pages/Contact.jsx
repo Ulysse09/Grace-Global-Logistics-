@@ -2,6 +2,7 @@ import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { FaPhoneAlt } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import Form from "../components/Form/Form";
 
 const Contact = () => {
   return (
@@ -9,7 +10,7 @@ const Contact = () => {
       {/* header image */}
       <div className="backgroundImage -z-10 bg-cover bg-bottom relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
-        <div className="pt-52  ">
+        <div className="lg:pt-52 pt-34  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
             <span className="">
               <h1 className=" pb-10 text-white text-[2.7rem] font-bold  w-100 h-16 text-6xl mt-4">
@@ -17,8 +18,8 @@ const Contact = () => {
               </h1>
             </span>
             <span>
-              <p className=" text-white text-[1.5rem] font-semibold mt-4">
-                We make almost anything
+              <p className=" text-white text-xl lg:text-2xl font-light font-roboto mt-4">
+                Connecting Continents, Fast-tracking Success
               </p>
             </span>
           </div>
@@ -116,79 +117,14 @@ const Contact = () => {
       </div>
 
       {/* contact form  */}
-      <div className="pb-8 relative">
-        <div className="bg-image-2 " />
-        <div className="bg-white  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%] mt-[-38rem] lg:mt-[-52rem]   lg:top-[54rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[6rem] pb-[5rem] w-full">
-          <div className="flex flex-col px-8 py-0 md:w-2/3 space-y-10 ">
-            <h2 className="text-[#03396C] text-2xl font-semibold">
-              Tell us what you think
-            </h2>
-
-            <input
-              type="text"
-              placeholder="Name"
-              name=""
-              id=""
-              className="border border-gray-400 rounded-sm px-3 py-1"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Email"
-              className="border border-gray-400 rounded-sm px-3 py-1"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Subject"
-              className="border border-gray-400 rounded-sm px-3 py-1"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Message"
-              className="border border-gray-400 rounded-sm px-3 py-8"
-              required
-            />
-            <div className="">
-              <button className="px-4 py-2 bg-[#055589] rounded-md text-white font-semibold">
-                Send message
-              </button>
-            </div>
-          </div>
-          <div className="md:w-1/3 flex flex-col items-center  space-y-2 pt-[4rem] pb-[4rem]  ">
-            <div>
-              <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
-                Address
-              </h2>
-              <p className="text-[#3A3A3A]">KG 548 St, Kigali</p>
-            </div>
-
-            <div>
-              <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
-                Email
-              </h2>
-              <p className="text-[#3A3A3A]">info@fablab.rw</p>
-            </div>
-
-            <div>
-              <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
-                Phone
-              </h2>
-              <p className="text-[#3A3A3A]">+250 789 276 080</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Form />
 
       {/* embedded map  */}
       <div className="">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2921.925743501694!2d30.08214704579601!3d-1.9744905432534954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7a44033e397%3A0x42655b8713273770!2sMagerwa%20warehouse%20B!5e0!3m2!1sen!2srw!4v1709658041508!5m2!1sen!2srw"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.447462010169!2d30.081208408376916!3d-1.975310536754539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca78890734fdd%3A0xec8ce4c0ccc86431!2sBlue%20Channel%20Logistics!5e0!3m2!1sen!2srw!4v1710082804516!5m2!1sen!2srw"
           className="w-full"
           height="450"
-         
-          
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
