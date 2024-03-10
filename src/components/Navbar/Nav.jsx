@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <nav className="flex  slideinLeft  items-center p-4  w-full lg:fixed bg-white z-10  lg:px-[10rem] justify-between">
       <Link to={"/"}>
-        <img src={logo} alt="" className="h-[15vh] w-[8vw] rounded-full" />
+        <img src={logo} alt="" className="h-[18vh]    rounded-full" />
       </Link>
       <div className="lg:flex hidden  items-center space-x-4 justify-between   ">
         <ul className="flex font-roboto font-semibold space-x-4 ">

@@ -29,7 +29,7 @@ const Contact = () => {
       <div className=" w-full font-roboto pt-[4rem] px-8 bg-slate-100 bg-gradient-to-b from-white">
         <div className="md:flex justify-evenly   ">
           <div className="  lg:w-1/2 p-6   ">
-            <h1 className="uppercase text-4xl font-semibold">
+            <h1 className="uppercase lg:text-4xl text-2xl font-semibold">
               Contact details
             </h1>
             <p className="mt-6 max-w-lg ">

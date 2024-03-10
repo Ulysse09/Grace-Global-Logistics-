@@ -50,7 +50,7 @@ function App() {
           animationHandler="fade"
           swipeable={false}
           autoPlay={true}
-          interval={3000}
+          interval={4000}
           infiniteLoop={true}
           className="   "
         >
