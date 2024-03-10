@@ -57,7 +57,7 @@ function App() {
                 <div className="lg:mt-24      ">
                   <img
                     src={item.pic}
-                    className="lg:h-[100vh] h-[70vh] brightness-50  -z-40   object-cover object-bottom    
+                    className="lg:h-[100vh] h-[100vh] brightness-50  -z-40   object-cover object-bottom    
 
                       "
                     alt=""
@@ -103,15 +103,17 @@ function App() {
         <div className="flex lg:flex-row flex-col space-y-20 lg:items-center px-[2rem]  lg:space-x-[5rem] lg:container lg:mx-auto">
           <div className="lg:w-[50vw] md:w-[80vw]  lg:p-[5rem]   lg:space-y-4  ">
             <img src={truck} className="rounded-lg" alt="" />
-            <p className="font-semibold text-[#3A3A3A] lg:text-left md:text-right text-center py-4 lg:py-0">
+            <p className="font-semibold text-[#3A3A3A]  lg:text-left md:text-right text-center py-4 lg:py-0">
               We make almost anything{" "}
             </p>
           </div>
-          <div className="space-y-3 flex-col flex items-start  ">
-            <h3 className="text-[#3A3A3A] font-bold ">MAKE ALMOST ANYTHING</h3>
-            <div className="flex flex-col items-start">
-              <h2 className="text-3xl text-[#03396C] font-semibold font-roboto ">
-                Who We are
+          <div className="space-y-3 flex-col flex lg:items-start items-center   ">
+            {/* <h3 className="text-[#3A3A3A] font-bold mt-[5rem] bg-red-400 ">
+              MAKE ALMOST ANYTHING
+            </h3> */}
+            <div className="flex flex-col mb-14 lg:items-start items-center space-y-8">
+              <h2 className="text-3xl text-[#03396C] lg:text-left text-center font-semibold font-roboto ">
+                Who Are We?
               </h2>
               <p className=" lg:max-w-md max-w-xl md:text-left font-roboto  ">
                 FabLab Rwanda was established in May 12th, 2016, by ICT Chamber
@@ -124,10 +126,13 @@ function App() {
                 to support Hardware Innovators in Rwanda.
               </p>
             </div>
-            <div className="mt-10 lg:pb-10 md:pb-20 pb-6">
-              <button className="px-10 py-3 md border-2 border-[#03396C]  hover:text-white transition text-[#03396C] hover:bg-[#03396C]  rounded-full ">
+            <div className="lg:pb-10 flex justify-center  md:pb-20 pb-6">
+              <Link
+                to={"about"}
+                className=" px-10 py-3 md border-2 border-[#03396C]  hover:text-white transition text-[#03396C] hover:bg-[#03396C]  rounded-full "
+              >
                 Know more
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -138,7 +143,7 @@ function App() {
         Our services
       </h1>
       <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between  lg:px-24 font-roboto">
-        <div className="lg:w-1/3 text-center space-y-4 flex flex-col items-center">
+        <div className="lg:w-1/3 p-8 text-center space-y-4 flex flex-col items-center">
           <img src={truck} className="bg-cover brightness-75" alt="" />
           <h2 className="font-bold text-lg">Road freight forwarding</h2>
           <p className="max-w-xs">
@@ -146,7 +151,7 @@ function App() {
             world’s roads where we give you a presence.
           </p>
         </div>
-        <div className="lg:w-1/3 text-center flex flex-col items-center space-y-4">
+        <div className="lg:w-1/3 p-8 text-center flex flex-col items-center space-y-4">
           <img src={ship} className="bg-cover brightness-75" alt="" />
           <h2 className="font-semibold text-lg">Ocean freight forwarding</h2>
           <p className="max-w-xs ">
@@ -154,7 +159,7 @@ function App() {
             world’s roads where we give you a presence.
           </p>
         </div>
-        <div className="lg:w-1/3 text-center flex flex-col items-center space-y-4">
+        <div className="lg:w-1/3 p-8 text-center flex flex-col items-center space-y-4">
           <img src={plane} className="bg-cover brightness-75 " alt="" />
           <h2 className="font-semibold text-lg">Air Freight forwarding</h2>
           <p className="max-w-xs">
@@ -165,7 +170,7 @@ function App() {
       </div>
 
       <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between font-roboto mb-[10rem] mt-[2rem]  lg:px-24">
-        <div className="lg:w-1/3 text-center space-y-4 flex flex-col items-center">
+        <div className="lg:w-1/3 p-8 text-center space-y-4 flex flex-col items-center">
           <img src={customs} className="bg-cover brightness-75" alt="" />
           <h2 className="font-bold text-lg">Customs clearance</h2>
           <p className="max-w-xs">
@@ -173,7 +178,7 @@ function App() {
             world’s roads where we give you a presence.
           </p>
         </div>
-        <div className="lg:w-1/3 text-center flex flex-col items-center space-y-4">
+        <div className="lg:w-1/3 p-8 text-center flex flex-col items-center space-y-4">
           <img src={warehouse} className="bg-cover brightness-75" alt="" />
           <h2 className="font-semibold text-lg">Warehousing</h2>
           <p className="max-w-xs ">
@@ -181,7 +186,7 @@ function App() {
             world’s roads where we give you a presence.
           </p>
         </div>
-        <div className="lg:w-1/3 text-center flex flex-col items-center space-y-4">
+        <div className="lg:w-1/3 p-8 text-center flex flex-col items-center space-y-4">
           <img src={pack} className="bg-cover brightness-75 " alt="" />
           <h2 className="text-lg font-semibold">Product packaging</h2>
           <p className="max-w-xs">

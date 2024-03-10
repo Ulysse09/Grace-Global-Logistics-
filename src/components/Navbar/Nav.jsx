@@ -13,9 +13,9 @@ const Nav = () => {
 
   return (
     <nav className="flex items-center p-4  w-full lg:fixed bg-white z-10  lg:px-[10rem] justify-between">
-      <div>
+      <Link to={"/"}>
         <img src={logo} alt="" className="h-[10vh]" />
-      </div>
+      </Link>
       <div className="lg:flex hidden  items-center space-x-4 justify-between   ">
         <ul className="flex font-roboto font-semibold space-x-4 ">
           <Link
