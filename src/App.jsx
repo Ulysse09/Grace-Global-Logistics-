@@ -21,6 +21,9 @@ import pack from "./assets/package.jpg";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Form/Form";
 import { Link } from "react-router-dom";
+import { IoIosTimer } from "react-icons/io";
+import { RiGlobalLine } from "react-icons/ri";
+import { MdDeliveryDining } from "react-icons/md";
 
 function App() {
   const slide = [
@@ -169,7 +172,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between font-roboto mb-[10rem] mt-[2rem]  lg:px-24">
+      <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between font-roboto mb-[5rem] mt-[2rem]  lg:px-24">
         <div className="lg:w-1/3 p-8 text-center space-y-4 flex flex-col items-center">
           <img src={customs} className="bg-cover brightness-75" alt="" />
           <h2 className="font-bold text-lg">Customs clearance</h2>
@@ -192,6 +195,62 @@ function App() {
           <p className="max-w-xs">
             Cargo are transported at some stage of their journey along the
             world’s roads where we give you a presence.
+          </p>
+        </div>
+      </div>
+
+      {/* Why choose us */}
+      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem]">
+        Why choose us
+      </h1>
+      <div className="md:flex font-roboto xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
+        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
+          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  w-24 h-24 rounded-full flex items-center justify-center mt-6  ml-auto mr-auto ">
+            <IoIosTimer className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
+          </div>
+          <h2 className="-200 mt-5 flex justify-center font-semibold text-xl">
+            24 Hour Support
+          </h2>
+          <p className=" mt-14 ml-2">
+            {" "}
+            FabLab Rwanda Ltd mission is to provide knowledge and skills, access
+            to the tools, innovate and invent using technology and digital
+            fabrication to allow anyone to make (almost anything).We will
+            accomplish this while providing quality of training, access to high
+            standard digital facilities and excellent quality services to our
+            primary beneficiaries who are engineering graduates, educational
+            institutions, non-profit and community organizations and creating an
+            enjoyable working environment for our employees.
+          </p>
+        </div>
+        <div className=" group p-5 md:w-[70rem]  border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
+          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center ml-auto mr-auto mt-6">
+            <RiGlobalLine className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
+          </div>
+          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
+            Global supply chain
+          </h2>
+          <p className=" mt-14 ml-2">
+            To be a well-established digital fabrication company in Rwanda that
+            is able to meet customers needs and deliver on time.
+          </p>
+        </div>
+        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
+          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  flex items-center justify-center w-24 h-24 rounded-full ml-auto mr-auto mt-6">
+            <MdDeliveryDining className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
+          </div>
+          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
+            Time on Delivery
+          </h2>
+          <p className=" mt-14 ml-2">
+            To Provide shared workspace and tools for schools, TVETs &
+            individuals to work and develop ideas into products in a wide range
+            of domains. To develop Skills in technology education through events
+            & workshops To facilitate translation of innovative concepts into
+            marketable products To enhance the number of professional design
+            experts in Rwanda with word class hands on experience and access to
+            tools. To increase research and improve designs of African centric
+            hardware tools
           </p>
         </div>
       </div>

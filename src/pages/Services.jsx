@@ -11,9 +11,6 @@ import { IoCheckbox } from "react-icons/io5";
 import { FaTruck } from "react-icons/fa";
 import { FaHandHolding } from "react-icons/fa";
 
-
-
-
 const Services = () => {
   return (
     <>
@@ -38,9 +35,9 @@ const Services = () => {
       {/* header text  */}
 
       <div className=" w-full pt-[4rem]  ">
-        <div className="md:flex font-roboto px-[5rem] space-y-10 lg:space-y-0  mb-[7rem] justify-between items-center    ">
+        <div className="md:flex font-roboto lg:px-[5rem] px-[2rem] space-y-10 lg:space-y-0  mb-[7rem] justify-between items-center    ">
           <div className=" lg:w-1/2 space-y-[2rem] lg:space-y-[0rem]   ">
-            <p className="font-semibold border-l-4 border-l-blue-800 pl-2 lg:text-4xl text-2xl tracking-wide">
+            <p className="font-semibold border-l-4 border-l-blue-800 pl-2 lg:text-4xl     text-lg ">
               UNBEATABLE TRUCKING AND TRANSPORT SERVICES
             </p>
 

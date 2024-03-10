@@ -63,7 +63,7 @@ const Nav = () => {
 
       {/* navigation modal */}
 
-      {openModal && <Modal />}
+      {openModal && <Modal handletoggle={handletoggle} />}
     </nav>
   );
 };

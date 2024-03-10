@@ -135,6 +135,7 @@ const About = () => {
         </div>
       </div>
 
+        {/* Why choose us */}
       <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem]">
         Why choose us
       </h1>
