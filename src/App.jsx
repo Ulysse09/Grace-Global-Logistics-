@@ -50,7 +50,7 @@ function App() {
           animationHandler="fade"
           swipeable={false}
           autoPlay={true}
-          interval={4000}
+          interval={8000}
           infiniteLoop={true}
           className="   "
         >
@@ -119,14 +119,11 @@ function App() {
                 Who Are We?
               </h2>
               <p className=" lg:max-w-md max-w-xl text-center md:text-left font-roboto  ">
-                FabLab Rwanda was established in May 12th, 2016, by ICT Chamber
-                in partnership with Rwanda Development Board (RDB), Japan
-                International Cooperation Agency (JICA), Ministry of Education,
-                SolidWorks Corporation MIT-CBA, and Gasabo3D who followed
-                through taking lessons learnt from efforts of supporting
-                Software Innovators (at KLAB) to execute on His Excellency’s
-                recommendation to put in place a Fabrication Laboratory (FABLAB)
-                to support Hardware Innovators in Rwanda.
+                <span className="text-sky-900">Blue Channel Logistics</span> is your trusted partner for
+                efficient and reliable cargo transportation solutions across
+                Rwanda and beyond. Based in Kigali, we offer a comprehensive
+                range of logistics services to empower businesses of all sizes
+                to achieve their goals.
               </p>
             </div>
             <div className="lg:pb-10 flex justify-center  md:pb-20 pb-6">
