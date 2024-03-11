@@ -119,7 +119,7 @@ function App() {
                 Who Are We?
               </h2>
               <p className=" lg:max-w-md max-w-xl text-center md:text-left font-roboto  ">
-                <span className="text-sky-900">Blue Channel Logistics</span> is your trusted partner for
+                <span className="text-sky-900 font-bold">Blue Channel Logistics</span> is your trusted partner for
                 efficient and reliable cargo transportation solutions across
                 Rwanda and beyond. Based in Kigali, we offer a comprehensive
                 range of logistics services to empower businesses of all sizes
