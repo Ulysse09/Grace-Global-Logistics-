@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import ship2 from "../assets/ship2.jpg";
 import air from "../assets/air.jpg";
 import trucks from "../assets/trucks.jpg";
+import WhyChoose from "../sections/WhyChoose";
 const About = () => {
   const testimonies = [
     {
@@ -54,23 +55,19 @@ const About = () => {
               What we are about ?
             </h1>
             <p className="mt-[1.2rem]">
-              FabLab Rwanda is a space for members to turn innovative ideas into
-              products specifically in the hardware and electronics domain. The
-              space provides a platform for capacity building and integration of
-              hardware skills with software knowledge and quickly bringing
-              Rwandan innovators closer to the Internet of Things era. The space
-              provides collaborative community, Knowledge base and innovation
-              business model Guidance with a core focus to increase Rwandas
-              competitiveness in the fields of Design, Engineering, Electronics,
-              Fabrication and High-Tech innovative business.
+              At Blue Channel Logistics, we are dedicated to transforming the
+              logistics industry with innovative, reliable, and efficient
+              solutions. Founded in 198, our company has grown into a trusted
+              partner for businesses across various industries, delivering
+              unparalleled logistics services that drive growth and success.
             </p>
             <p className="mt-[1.2rem]">
-              FABLAB Rwanda also serves as a model for the nations leaders in
-              policy, government, and industry, to experience, first hand, Fab
-              Labs grass roots approach in developing technical education and
-              literacy, promoting innovation and launching inventions
-              <br /> while transforming traditional industries into digital
-              fabrication agents.
+              Our team of experienced professionals is the backbone of our
+              company. With expertise in logistics, supply chain management, and
+              customer service, our team is committed to providing exceptional
+              service and support. We invest in continuous training and
+              development to ensure our team is equipped with the latest
+              industry knowledge and skills.
             </p>
           </div>
           <div className=" md:h-[23rem] xl:w-[32rem] md:w-[30rem] sm:w-[10rem] sm:h-[40rem] block justify-end px-4 py-2 ">
@@ -135,65 +132,12 @@ const About = () => {
         </div>
       </div>
 
-        {/* Why choose us */}
-      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem]">
-        Why choose us
-      </h1>
-      <div className="md:flex font-roboto xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  w-24 h-24 rounded-full flex items-center justify-center mt-6  ml-auto mr-auto ">
-            <IoIosTimer className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
-          </div>
-          <h2 className="-200 mt-5 flex justify-center font-semibold text-xl">
-            24 Hour Support
-          </h2>
-          <p className=" mt-14 ml-2">
-            {" "}
-            FabLab Rwanda Ltd mission is to provide knowledge and skills, access
-            to the tools, innovate and invent using technology and digital
-            fabrication to allow anyone to make (almost anything).We will
-            accomplish this while providing quality of training, access to high
-            standard digital facilities and excellent quality services to our
-            primary beneficiaries who are engineering graduates, educational
-            institutions, non-profit and community organizations and creating an
-            enjoyable working environment for our employees.
-          </p>
-        </div>
-        <div className=" group p-5 md:w-[70rem]  border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center ml-auto mr-auto mt-6">
-            <RiGlobalLine className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
-          </div>
-          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
-            Global supply chain
-          </h2>
-          <p className=" mt-14 ml-2">
-            To be a well-established digital fabrication company in Rwanda that
-            is able to meet customers needs and deliver on time.
-          </p>
-        </div>
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  flex items-center justify-center w-24 h-24 rounded-full ml-auto mr-auto mt-6">
-            <MdDeliveryDining className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
-          </div>
-          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
-            Time on Delivery
-          </h2>
-          <p className=" mt-14 ml-2">
-            To Provide shared workspace and tools for schools, TVETs &
-            individuals to work and develop ideas into products in a wide range
-            of domains. To develop Skills in technology education through events
-            & workshops To facilitate translation of innovative concepts into
-            marketable products To enhance the number of professional design
-            experts in Rwanda with word class hands on experience and access to
-            tools. To increase research and improve designs of African centric
-            hardware tools
-          </p>
-        </div>
-      </div>
+      {/* Why choose us */}
+       <WhyChoose/>
 
       {/* Team members  */}
       <div className="bg-[#F3F5F5] lg:px-[8rem] px-[1rem] mt-[4rem] pb-[5rem]">
-        <h2 className="text-center text-3xl font-semibold py-8 text-[#03396C]">
+        <h2 className="text-center text-5xl font-semibold py-8 text-[#03396C]">
           Meet the team
         </h2>
         <Carousel
@@ -208,8 +152,8 @@ const About = () => {
             return (
               <div className="flex md:flex-row bg-white flex-col items-center px-[1rem] justify-evenly py-8 ">
                 <div className="md:w-1/2 flex flex-col space-y-6">
-                  <p className="text-[#3A3A3A]">{item.name}</p>
-                  <p className="font-bold">{item.title}</p>
+                  <p className="text-[#3A3A3A] font-roboto text-4xl">{item.name}</p>
+                  <p className="font-bold text-5xl font-roboto">{item.title}</p>
                 </div>
                 <div className="">
                   <img

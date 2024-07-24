@@ -21,9 +21,11 @@ import pack from "./assets/package.jpg";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Form/Form";
 import { Link } from "react-router-dom";
+
 import { IoIosTimer } from "react-icons/io";
 import { RiGlobalLine } from "react-icons/ri";
 import { MdDeliveryDining } from "react-icons/md";
+import WhyChoose from "./sections/WhyChoose";
 
 function App() {
   const slide = [
@@ -60,7 +62,7 @@ function App() {
                 <div className="lg:mt-24      ">
                   <img
                     src={item.pic}
-                    className="lg:h-[100vh] h-[100vh] brightness-50  -z-40   object-cover object-bottom    
+                    className="lg:h-[100vh] h-[50vh] brightness-50  -z-40   object-cover object-bottom    
 
                       "
                     alt=""
@@ -115,15 +117,17 @@ function App() {
               MAKE ALMOST ANYTHING
             </h3> */}
             <div className="flex flex-col mb-14 lg:items-start items-center space-y-8">
-              <h2 className="text-3xl text-[#03396C] lg:text-left text-center font-semibold font-roboto ">
+              <h2 className="text-5xl text-[#03396C] lg:text-left text-center font-semibold font-roboto ">
                 Who Are We?
               </h2>
               <p className=" lg:max-w-md max-w-xl text-center md:text-left font-roboto  ">
-                <span className="text-sky-900 font-bold">Blue Channel Logistics</span> is your trusted partner for
-                efficient and reliable cargo transportation solutions across
-                Rwanda and beyond. Based in Kigali, we offer a comprehensive
-                range of logistics services to empower businesses of all sizes
-                to achieve their goals.
+                <span className="text-sky-900 font-bold">
+                  Blue Channel Logistics
+                </span>{" "}
+                is your trusted partner for efficient and reliable cargo
+                transportation solutions across Rwanda and beyond. Based in
+                Kigali, we offer a comprehensive range of logistics services to
+                empower businesses of all sizes to achieve their goals.
               </p>
             </div>
             <div className="lg:pb-10 flex justify-center  md:pb-20 pb-6">
@@ -139,7 +143,7 @@ function App() {
       </div>
 
       {/*freight forwarding   */}
-      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[1rem] p-8">
+      <h1 className="font-roboto text-center text-5xl text-blue-900  font-bold my-[1rem] p-8">
         Our services
       </h1>
       <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between  lg:px-24 font-roboto">
@@ -197,60 +201,7 @@ function App() {
       </div>
 
       {/* Why choose us */}
-      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem]">
-        Why choose us
-      </h1>
-      <div className="md:flex font-roboto xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  w-24 h-24 rounded-full flex items-center justify-center mt-6  ml-auto mr-auto ">
-            <IoIosTimer className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
-          </div>
-          <h2 className="-200 mt-5 flex justify-center font-semibold text-xl">
-            24 Hour Support
-          </h2>
-          <p className=" mt-14 ml-2">
-            {" "}
-            FabLab Rwanda Ltd mission is to provide knowledge and skills, access
-            to the tools, innovate and invent using technology and digital
-            fabrication to allow anyone to make (almost anything).We will
-            accomplish this while providing quality of training, access to high
-            standard digital facilities and excellent quality services to our
-            primary beneficiaries who are engineering graduates, educational
-            institutions, non-profit and community organizations and creating an
-            enjoyable working environment for our employees.
-          </p>
-        </div>
-        <div className=" group p-5 md:w-[70rem]  border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center ml-auto mr-auto mt-6">
-            <RiGlobalLine className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
-          </div>
-          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
-            Global supply chain
-          </h2>
-          <p className=" mt-14 ml-2">
-            To be a well-established digital fabrication company in Rwanda that
-            is able to meet customers needs and deliver on time.
-          </p>
-        </div>
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  flex items-center justify-center w-24 h-24 rounded-full ml-auto mr-auto mt-6">
-            <MdDeliveryDining className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
-          </div>
-          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
-            Time on Delivery
-          </h2>
-          <p className=" mt-14 ml-2">
-            To Provide shared workspace and tools for schools, TVETs &
-            individuals to work and develop ideas into products in a wide range
-            of domains. To develop Skills in technology education through events
-            & workshops To facilitate translation of innovative concepts into
-            marketable products To enhance the number of professional design
-            experts in Rwanda with word class hands on experience and access to
-            tools. To increase research and improve designs of African centric
-            hardware tools
-          </p>
-        </div>
-      </div>
+      <WhyChoose/>
 
       {/* contact form  */}
       <Form />
