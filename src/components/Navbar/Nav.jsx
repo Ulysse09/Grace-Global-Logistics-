@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <nav className="flex  slideinLeft  items-center h-[5rem]  w-full lg:fixed bg-white p-2 z-10  lg:px-[10rem] justify-between">
-      <Link to={"/"}>
+      <Link to={"/"} >
         <img src={logo} alt="" className="lg:h-[18vh] lg:w-[10vw] h-[15vh] w-[25vw] pb-8 mt-4   " />
       </Link>
       <div className="lg:flex hidden  items-center space-x-4 justify-between   ">

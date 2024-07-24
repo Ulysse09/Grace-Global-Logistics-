@@ -3,9 +3,6 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import logo from "./assets/tai.png";
-import yellow from "./assets/10001.jpeg";
-import black from "./assets/10002.jpeg";
-import red from "./assets/10004.jpeg";
 import truck from "./assets/truck.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";

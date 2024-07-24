@@ -6,6 +6,7 @@ import ship2 from "../assets/ship2.jpg";
 import air from "../assets/air.jpg";
 import trucks from "../assets/trucks.jpg";
 import WhyChoose from "../sections/WhyChoose";
+import blutruck from '../assets/blutruck.jpg'
 const About = () => {
   const testimonies = [
     {
@@ -48,10 +49,10 @@ const About = () => {
       {/* header text  */}
 
       <div className=" w-full pt-[4rem] bg-slate-100 bg-gradient-to-b from-white">
-        <div className="md:flex justify-evenly   md:h-[30rem]">
-          <div className=" font-roboto md:w-[37rem] pl-6 md:h-[29rem]">
+        <div className="md:flex justify-around   md:h-[30rem]">
+          <div className=" font-roboto   md:w-1/2 pl-6 md:h-[29rem]">
             {/* </div> */}
-            <h1 className="mt-[0.5rem] text-[1.8rem] text-sky-900 font-semibold">
+            <h1 className="mt-[0.5rem] text-5xl text-sky-900 font-semibold">
               What we are about ?
             </h1>
             <p className="mt-[1.2rem]">
@@ -70,20 +71,14 @@ const About = () => {
               industry knowledge and skills.
             </p>
           </div>
-          <div className=" md:h-[23rem] xl:w-[32rem] md:w-[30rem] sm:w-[10rem] sm:h-[40rem] block justify-end px-4 py-2 ">
-            <span className="flex justify-end ">
-              <img
-                src="https://i.ibb.co/ggfVWRm/10001.jpg"
-                alt=""
-                className=" mt-2 md:w-[29rem] rounded-md"
-              />
-            </span>
+          <div className="   flex flex-col items-center md:w-1/2 px-4 py-2 ">
+            <img
+              src={blutruck}
+              alt=""
+              className="  md:w-[32vw] md:h-[64vh]   rounded-md"
+            />
 
-            <span className=" flex justify-end ">
-              <p className="mt-3 font-semibold text-slate-500">
-                Innovation Lab
-              </p>
-            </span>
+            <p className="mt-3 font-semibold text-slate-500">Innovation Lab</p>
           </div>
         </div>
       </div>
@@ -133,7 +128,7 @@ const About = () => {
       </div>
 
       {/* Why choose us */}
-       <WhyChoose/>
+      <WhyChoose />
 
       {/* Team members  */}
       <div className="bg-[#F3F5F5] lg:px-[8rem] px-[1rem] mt-[4rem] pb-[5rem]">
@@ -152,7 +147,9 @@ const About = () => {
             return (
               <div className="flex md:flex-row bg-white flex-col items-center px-[1rem] justify-evenly py-8 ">
                 <div className="md:w-1/2 flex flex-col space-y-6">
-                  <p className="text-[#3A3A3A] font-roboto text-4xl">{item.name}</p>
+                  <p className="text-[#3A3A3A] font-roboto text-4xl">
+                    {item.name}
+                  </p>
                   <p className="font-bold text-5xl font-roboto">{item.title}</p>
                 </div>
                 <div className="">
