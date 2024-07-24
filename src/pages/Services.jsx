@@ -10,6 +10,7 @@ import pack from "../assets/package.jpg";
 import { IoCheckbox } from "react-icons/io5";
 import { FaTruck } from "react-icons/fa";
 import { FaHandHolding } from "react-icons/fa";
+import { Button2 } from "../components/Button/ButtonContact";
 
 const Services = () => {
   return (
@@ -37,23 +38,21 @@ const Services = () => {
       <div className=" w-full pt-[4rem]  ">
         <div className="md:flex font-roboto lg:px-[5rem] px-[2rem] space-y-10 lg:space-y-0  mb-[7rem] justify-between items-center    ">
           <div className=" lg:w-1/2 space-y-[2rem] lg:space-y-[0rem]   ">
-            <p className="font-semibold border-l-4 border-l-blue-800 pl-2 lg:text-4xl     text-lg ">
-              UNBEATABLE TRUCKING AND TRANSPORT SERVICES
+            <p className="font-semibold border-l-4 max-w-screen-xl border-l-blue-800 pl-2 lg:text-5xl     text-lg ">
+              UNBEATABLE LOGISTIC AND TRANSPORT SERVICES
             </p>
-
+          </div>
+          <div className="lg:w-1/2    ">
             <p className="mt-[1.2rem] lg:max-w-lg">
               Blue Channel Logistics is Rwanda's world leading logistic service
               company and transporting Solution.
             </p>
-          </div>
-          <div className="lg:w-1/2    ">
             <p>
-              Cargo Hub is the world’ s leading logistic service company, We
-              have a wide experience in overland industry specific logistic
+             We have a wide experience in overland industry specific logistic
               solutions like pharmaceutical logistics, retail and automotive
-              logistics by train or road. We bring your goods safely to
+              logistics by air or road. We bring your goods safely to
               worldwide destinations with our great sea fright services.We offer
-              LLC and FLC shipments that are fast and effective with no delays.
+               shipments that are fast and effective with no delays.
             </p>
           </div>
         </div>
@@ -168,6 +167,10 @@ const Services = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center mb-8 pb-10">
+          <Button2 text={"Contact us"} />
+
         </div>
       </div>
 
