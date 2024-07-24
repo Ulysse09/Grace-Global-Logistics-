@@ -9,6 +9,7 @@ import About from "./pages/About.jsx"
 import Services from "./pages/Services.jsx";
 import Contact from "./pages/Contact.jsx";
 import Gallery from "./pages/Gallery.jsx";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
 
 const Layout = () => {
   return (
@@ -23,6 +24,7 @@ const Layout = () => {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<App />} />
