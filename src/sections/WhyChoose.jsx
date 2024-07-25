@@ -42,7 +42,7 @@ const WhyChoose = () => {
             </p>
             <Button1 text={"Learn More"} />
           </div>
-          <div className="group p-5 md:w-[70rem] lg:h-[65vh] space-y-10 flex-col flex items-center      rounded-lg     hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
+          <div className="group p-5 md:w-[70rem] lg:h-[65vh] space-y-10 flex-col flex items-center      rounded-lg     hover:rounded-lg mt-3 mb-8 transition-colors duration-500 delay-200">
             <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900     flex items-center justify-center w-24 h-24 rounded-full ml-auto mr-auto mt-6">
               <MdDeliveryDining className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
             </div>
