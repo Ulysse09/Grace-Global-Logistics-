@@ -1,15 +1,12 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import logo from "./assets/tai.png";
-import truck from "./assets/truck.jpg";
+ 
+import "./App.css"; 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
  
 import Form from "./components/Form/Form";
 import { Link } from "react-router-dom";
  
 
-import atruck from "./assets/atruck.jpeg";
+import atruck from "./assets/Atruck.jpeg";
  
 import WhyChoose from "./sections/WhyChoose";
 import { useEffect, useRef } from "react";
