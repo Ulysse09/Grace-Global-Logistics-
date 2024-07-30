@@ -10,11 +10,11 @@ const Contact = () => {
       {/* header image */}
       <div className="backgroundImage -z-10 bg-cover bg-bottom relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
-        <div className="lg:pt-52 pt-34  ">
+        <div className="lg:pt-52 pt-2  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
             <span className="">
               <h1 className=" pb-10 text-white text-[2.7rem] font-bold  w-100 h-16 text-6xl mt-4">
-                Contact Us{" "}
+                Contactez-nous{" "}
               </h1>
             </span>
             <span>
@@ -30,12 +30,13 @@ const Contact = () => {
         <div className="md:flex justify-evenly   ">
           <div className="  lg:w-1/2 p-6   ">
             <h1 className="uppercase lg:text-4xl text-2xl font-semibold">
-              Contact details
+              Coordonnées
             </h1>
             <p className="mt-6 max-w-lg ">
-              If you have any questions about what we offer for consumers or for
-              business, you can always email us or call us via the below
-              details. We’ll reply within 24 hours.
+              Si vous avez des questions sur nos offres pour les particuliers ou
+              les entreprises, vous pouvez toujours nous envoyer un e-mail ou
+              nous appeler via les coordonnées ci-dessous. Nous répondrons sous
+              24 heures.
             </p>
             <div className="flex flex-col  items-start text-black  container mx-auto">
               <div className=" md:w-[40rem]  xl:h-36 flex items-center space-x-6  ">
@@ -43,10 +44,11 @@ const Contact = () => {
                   <CiLocationOn />
                 </h1>
                 <div>
-                  <p className="pt-7 font-roboto font-bold ">Visit us</p>
+                  <p className="pt-7 font-roboto font-bold ">Visitez-nous</p>
                   <p className=" max-w-sm">
-                    We meet our customers’ demands for a personal & profesional
-                    service by offering innovative supply chain solutions.
+                    Nous répondons aux exigences de nos clients pour un service
+                    personnalisé et professionnel en proposant des solutions
+                    innovantes de chaîne d'approvisionnement.{" "}
                   </p>
                 </div>
               </div>
@@ -56,11 +58,11 @@ const Contact = () => {
                   <FaPhoneAlt />
                 </h1>
                 <div>
-                  <p className="pt-7 font-bold ">Call us on</p>
+                  <p className="pt-7 font-bold ">Appelez-nous au</p>
                   <p className=" max-w-sm">
-                    We proactively and constantly look for new possibilities.
-                    Therefore, an important part of our vision is to attract &
-                    retain.{" "}
+                    Nous recherchons constamment de nouvelles opportunités. Par
+                    conséquent, une partie importante de notre vision est
+                    d'attirer et de fidéliser.
                   </p>
                 </div>
               </div>
@@ -70,10 +72,13 @@ const Contact = () => {
                   <CiMail />
                 </h1>
                 <div>
-                  <p className="pt-7 font-bold font-roboto ">Mail us on</p>
+                  <p className="pt-7 font-bold font-roboto ">
+                    Envoyez-nous un e-mail à
+                  </p>
                   <p className=" max-w-sm">
-                    We meet our customers’ demands for a personal & profesional
-                    service by offering innovative supply chain solutions.
+                    Nous répondons aux demandes de nos clients pour un service
+                    personnalisé et professionnel en proposant des solutions
+                    innovantes de chaîne d'approvisionnement.
                   </p>
                 </div>
               </div>
@@ -84,31 +89,31 @@ const Contact = () => {
           <div className="lg:w-1/4 mt-8  ">
             <div className="p-4 border-2">
               <h2 className="uppercase font-semibold text-3xl pt-1">
-                Working hours
+                Heures d'ouverture
               </h2>
-              <p className="pt-4">These are our office working hours </p>
+              <p className="pt-4">Voici nos heures d'ouverture de bureau </p>
               <div className="justify-between flex mt-4 border-b-2 p-4">
-                <p>Monday</p>
+                <p>Lundi</p>
                 <p>9:00am-17.00 pm </p>
               </div>
               <div className="justify-between flex mt-4 border-b-2 p-4">
-                <p>Tuesday</p>
+                <p>Mardi</p>
                 <p>9:00am-17.00 pm </p>
               </div>
               <div className="justify-between flex mt-4 border-b-2 p-4">
-                <p>Wednesday</p>
+                <p>Mercredi</p>
                 <p>9:00am-17.00 pm </p>
               </div>
               <div className="justify-between flex mt-4 border-b-2 p-4">
-                <p>Thursday</p>
+                <p>Jeudi</p>
                 <p>9:00am-17.00 pm </p>
               </div>
               <div className="justify-between flex mt-4 border-b-2 p-4">
-                <p>Friday</p>
+                <p>Vendredi</p>
                 <p>9:00am-17.00 pm </p>
               </div>
               <div className="justify-between flex mt-4   p-4">
-                <p>Sat & Sunday</p>
+                <p>Sam & Dimanche</p>
                 <p className=" text-red-500">Closed</p>
               </div>
             </div>

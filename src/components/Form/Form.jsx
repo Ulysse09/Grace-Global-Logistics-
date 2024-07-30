@@ -46,7 +46,7 @@ const Form = () => {
         <div className=" bg-slate-100  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%] mt-[-52rem]   lg:top-[54rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[6rem] pb-[5rem] w-full">
           <form className="flex flex-col px-8 py-0 md:w-2/3 space-y-10  ">
             <h2 className="text-[rgb(3,57,108)] text-2xl font-semibold font-roboto">
-              Contact us
+              Contactez-nous{" "}
             </h2>
 
             <input
@@ -98,7 +98,7 @@ const Form = () => {
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Address
               </h2>
-              <p className="text-[#3A3A3A]">KK 64 Av, Kigali</p>
+              <p className="text-[#3A3A3A]">KK 64 Av, Goma</p>
             </div>
 
             <div>

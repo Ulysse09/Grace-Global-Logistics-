@@ -13,18 +13,34 @@ const Modal = ({ handletoggle }) => {
           Home
         </Link>
 
-        <Link to="about" onClick={handletoggle}  className="hover:border-b-2 border-b-blue-500  transition-all duration-100">
-          About Us
+        <Link
+          to="about"
+          onClick={handletoggle}
+          className="hover:border-b-2 border-b-blue-500  transition-all duration-100"
+        >
+          À propos
         </Link>
 
-        <Link to="service" onClick={handletoggle} className="hover:border-b-2 border-b-blue-500  transition-all duration-100">
+        <Link
+          to="service"
+          onClick={handletoggle}
+          className="hover:border-b-2 border-b-blue-500  transition-all duration-100"
+        >
           Our services
         </Link>
-        <Link to="gallery" onClick={handletoggle} className="hover:border-b-2 border-b-blue-500  transition-all duration-100">
+        <Link
+          to="gallery"
+          onClick={handletoggle}
+          className="hover:border-b-2 border-b-blue-500  transition-all duration-100"
+        >
           Gallery
         </Link>
 
-        <Link to="contact" onClick={handletoggle} className="hover:border-b-2 border-b-blue-500  transition-all duration-100">
+        <Link
+          to="contact"
+          onClick={handletoggle}
+          className="hover:border-b-2 border-b-blue-500  transition-all duration-100"
+        >
           Contact us
         </Link>
       </div>

@@ -44,7 +44,8 @@
 }
 
 .fadeInDown {
-  animation: fadeInDown 1s ease-in-out 2s;
+  animation: fadeInDown 1.5s ease-in-out 0.5s ;
+
 }
 .yellow {
   background-image: url("./assets/10004.jpeg");
@@ -96,4 +97,11 @@
   background: rgb(55, 97, 134, 7);
 
   filter: brightness(0.6);
+}
+
+.brightness-negative {
+  filter:brightness(0.8) contrast(1);
+  
+  
+  
 }
