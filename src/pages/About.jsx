@@ -1,13 +1,8 @@
-import { IoIosTimer } from "react-icons/io";
-import { RiGlobalLine } from "react-icons/ri";
-import { MdDeliveryDining } from "react-icons/md";
-import { Carousel } from "react-responsive-carousel";
+ 
 
 import WhyChoose from "../sections/WhyChoose";
-import blutruck from "../assets/blutruck.jpg";
-import OurPartners from "../components/OurPartners/OurPartners";
-import atruck from "../assets/atruck.jpeg";
-import aboutlog from "../assets/aboutlog.jpeg";
+ import OurPartners from "../components/OurPartners/OurPartners";
+ import aboutlog from "../assets/aboutlog.jpeg";
 
 
 const About = () => {

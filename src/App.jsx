@@ -37,7 +37,7 @@ function App() {
       <CarouselComp />
 
       {/* Do not mess with the component below  */}
-      <div className="flex flex-col  lg:flex-row space-y-4 lg:space-y-0   justify-center lg:space-x-4 absolute top-[18rem] lg:top-[28rem] left-[8.5rem] lg:left-[15rem]  z-50">
+      <div className="flex flex-col  lg:flex-row space-y-4 lg:space-y-0   justify-center lg:space-x-4 absolute top-[20rem] lg:top-[28rem] left-[7.5rem] lg:left-[15rem]  z-50">
         <Link
           to="about"
           className="focus:bg-blue-400 py-2 px-8 font-roboto text-white border-white border hover:bg-blue-300 transition-colors rounded-sm   "
