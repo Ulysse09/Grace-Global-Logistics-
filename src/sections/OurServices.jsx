@@ -3,7 +3,7 @@ import React from 'react'
 import customs from "../assets/customs.jpeg";
 import warehouse from "../assets/warehouse.jpeg";
 import aboutlog from "../assets/aboutlog.jpeg";
-import atruck from "../assets/atruck.jpeg";
+import atruck from "../assets/Atruck.jpeg";
 
 import plane from "../assets/plane.jpg";
 import ship from "../assets/ship.jpg";
