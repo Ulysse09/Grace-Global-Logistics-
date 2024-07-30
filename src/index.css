@@ -47,7 +47,7 @@
   animation: fadeInDown 1.5s ease-in-out 0.5s ;
 
 }
-.yellow {
+/* .yellow {
   background-image: url("./assets/10004.jpeg");
   background-size: cover;
   background-position: center;
@@ -58,7 +58,7 @@
   right: 0;
   bottom: 0rem;
   z-index: 1;
-}
+} */
 
 .bg-image-2 {
   background-image: url("./assets/ship2.jpg");

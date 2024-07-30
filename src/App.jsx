@@ -4,20 +4,13 @@ import "./App.css";
 import logo from "./assets/tai.png";
 import truck from "./assets/truck.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-
-import Nav from "./components/Navbar/Nav";
-import pack from "./assets/package.jpg";
-import Footer from "./components/Footer/Footer";
+ 
 import Form from "./components/Form/Form";
 import { Link } from "react-router-dom";
-import aboutlog from "./assets/aboutlog.jpeg";
-
+ 
 
 import atruck from "./assets/atruck.jpeg";
-
-import { IoIosTimer } from "react-icons/io";
-import { RiGlobalLine } from "react-icons/ri";
-import { MdDeliveryDining } from "react-icons/md";
+ 
 import WhyChoose from "./sections/WhyChoose";
 import { useEffect, useRef } from "react";
 import CarouselComp from "./components/Carousel/Carousel";
