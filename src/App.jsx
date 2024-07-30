@@ -30,7 +30,7 @@ function App() {
       <div className="flex flex-col  lg:flex-row space-y-4 lg:space-y-0   justify-center lg:space-x-4 absolute top-[20rem] lg:top-[28rem] left-[7.5rem] lg:left-[15rem]  z-50">
         <Link
           to="about"
-          className="focus:bg-blue-400 py-2 px-8 font-roboto text-white border-white border hover:bg-blue-300 transition-colors rounded-sm   "
+          className="focus:bg-blue-400 py-2 px-8 text-center  font-roboto text-white border-white border hover:bg-blue-300 transition-colors rounded-sm   "
         >
           À propos
         </Link>
@@ -45,7 +45,7 @@ function App() {
       {/* À propos */}
 
       <div className="  flex justify-center items-center flex-col  bg-[#F3F5F5]  lg:space-y-0 mt-[-2.5rem] space-y-[3rem] ">
-        <h2 className="text-center fadeInDown text-[#3A3A3A] flex justify-center max-w-xl lg:max-w-4xl  lg:text-4xl text-lg  font-bold mb-10 mt-12 ">
+        <h2 className="text-center fadeInDown text-[#3A3A3A] flex justify-center max-w-xl lg:max-w-4xl  lg:text-4xl text-2xl  font-bold mb-10 mt-12 ">
           Grace Global Logistics connecte efficacement les entreprises à travers
           le monde
         </h2>
@@ -61,9 +61,9 @@ function App() {
               Partenaire logistique de confiance du Congo{" "}
             </p>
           </div>
-          <div className="space-y-3 flex-col flex lg:items-start items-center   ">
-            <div className="flex flex-col mb-14 lg:items-start items-center space-y-8">
-              <h2 className="text-5xl text-[#03396C] lg:text-left text-center font-semibold font-roboto ">
+          <div className="lg:space-y-3  space-y-[-1rem] flex-col flex lg:items-start items-center   ">
+            <div className="flex flex-col mb-14 lg:items-start items-center lg:space-y-8 space-y-6">
+              <h2 className="lg:text-5xl text-4xl text-[#03396C] lg:text-left text-center font-semibold font-roboto ">
                 Qui sommes-nous ?
               </h2>
               <p className=" lg:max-w-md max-w-xl text-center md:text-left font-roboto  ">
@@ -77,7 +77,7 @@ function App() {
                 toutes vos opérations d'importations et expor tations.
               </p>
             </div>
-            <div className="lg:pb-10 flex justify-center  md:pb-20 pb-6">
+            <div className="lg:pb-10 flex justify-center  md:pb-20 pb-14">
               <Link
                 to={"about"}
                 className=" px-10 py-3 md border-2 border-[#03396C]  hover:text-white transition text-[#03396C] hover:bg-[#03396C] font-roboto  font-semibold  rounded-full "

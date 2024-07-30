@@ -105,7 +105,7 @@ const Form = () => {
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Email
               </h2>
-              <p className="text-[#3A3A3A]">BlueChannel@gmail.rw</p>
+              <p className="text-[#3A3A3A]">GraceGlobalLogistics@gmail.rw</p>
             </div>
 
             <div>

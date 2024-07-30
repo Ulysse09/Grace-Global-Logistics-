@@ -30,7 +30,7 @@ const CarouselComp = () => {
           autoPlay={true}
           interval={8000}
           infiniteLoop={true}
-          className="   "
+          className=" h-[60vh] lg:h-full  "
         >
           {slide.map((item) => {
             return (
@@ -49,7 +49,7 @@ const CarouselComp = () => {
                       {item.text}
                     </h2>
                     <div className="font-semibold font-roboto space-y-6 lg:ml-[2rem] text-white  ">
-                      <p className="lg:text-xl font-roboto lg:max-w-lg text-sm font-normal  text-center">
+                      <p className="lg:text-xl font-roboto lg:max-w-lg text-md font-semibold  text-center">
                         Votre partenaire logistique de confiance{" "}
                       </p>
                     </div>

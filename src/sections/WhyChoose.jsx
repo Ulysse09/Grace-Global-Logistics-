@@ -9,7 +9,7 @@ const WhyChoose = () => {
   return (
     <div>
       <div className="from-gray-200 bg-gradient-to-b to-white">
-        <h1 className="font-roboto text-center mx-auto text-5xl text-blue-900 pt-24 mb-[5rem]  font-bold lg:my-[2rem]">
+        <h1 className="font-roboto text-center mx-auto lg:text-5xl text-3xl px-5   text-blue-900 pt-24 mb-[1rem]  font-bold lg:my-[2rem]">
           Pourquoi nous choisir{" "}
         </h1>
         <div className="md:flex font-roboto md:justify-evenly px-8    w-full gap-2 pb-5 mb-24   transition duration-500">
@@ -20,13 +20,13 @@ const WhyChoose = () => {
             <h2 className="-200 mt-5 flex justify-center font-semibold text-xl">
               Support 24h/24{" "}
             </h2>
-            <p className="  max-w-screen-sm max-h-[6rem] min-h-[6rem]">
+            <p className="  max-w-screen-sm lg:max-h-[6rem] lg:min-h-[6rem]">
               {" "}
               Chez Grace Global Logistics, nous nous engageons à fournir un
               support exceptionnel pour garantir le bon déroulement de vos
               opérations logistiques.
             </p>
-            <Button1 text={"Learn More"} />
+            <Button1 text={"En savoir plus"} />
           </div>
           <div className=" group p-5     space-y-10 flex-col flex items-center      mt-3 transition-colors duration-500 delay-200  ">
             <div className="bg-blue-900 group-hover:bg-white group-hover:border-4   group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center  mt-6">
@@ -35,7 +35,7 @@ const WhyChoose = () => {
             <h2 className=" mt-5 flex justify-center font-semibold   text-xl">
               Chaîne d'approvisionnement mondiale{" "}
             </h2>
-            <p className=" mt-14 max-w-screen-sm max-h-[6rem]">
+            <p className=" mt-14 max-w-screen-sm lg:max-h-[6rem]">
               Nous disposons d'un réseau solide de partenaires et de ressources
               à travers le monde, garantissant que vos marchandises soient
               transportées de manière efficace et fiable, peu importe leur
@@ -50,7 +50,7 @@ const WhyChoose = () => {
             <h2 className=" mt-5 flex justify-center font-semibold text-xl">
               Livraison à temps{" "}
             </h2>
-            <p className=" mt-14 max-w-screen-sm max-h-[6rem]  ">
+            <p className=" mt-14 max-w-screen-sm lg:max-h-[6rem]  ">
               Notre engagement indéfectible pour une livraison à temps garantit
               que vos expéditions arrivent à destination comme prévu, vous
               aidant ainsi à atteindre vos objectifs commerciaux et à dépasser

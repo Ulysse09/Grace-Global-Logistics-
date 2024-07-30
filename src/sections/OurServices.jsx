@@ -12,7 +12,7 @@ import ship from "../assets/ship.jpg";
 const OurServices = () => {
   return (
     <div>
-      <h1 className="font-roboto text-center text-5xl text-blue-900  font-bold my-[1rem] p-8">
+      <h1 className="font-roboto text-center lg:text-5xl text-4xl  text-blue-900  font-bold my-[1rem] p-8">
         Nos services
       </h1>
       <div className="bg-white p-2 lg:space-x-4 flex lg:flex-row flex-col items-center  lg:justify-between  lg:px-24 font-roboto">
