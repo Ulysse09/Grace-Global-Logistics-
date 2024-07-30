@@ -1,4 +1,4 @@
-import logo from "../../assets/GGl.png";
+import logo from "../../assets/GGL.png";
 import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
