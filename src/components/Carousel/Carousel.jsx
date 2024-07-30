@@ -38,7 +38,7 @@ const CarouselComp = () => {
                 <div className="lg:mt-24      ">
                   <img
                     src={item.pic}
-                    className="lg:h-[100vh] h-[80vh] brightness-50  -z-40   object-cover object-bottom    
+                    className="lg:h-[100vh] h-[90vh] brightness-50  -z-40   object-cover object-bottom    
 
                       "
                     alt=""
