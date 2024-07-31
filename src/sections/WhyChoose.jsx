@@ -32,7 +32,7 @@ const WhyChoose = () => {
             <div className="bg-blue-900 group-hover:bg-white group-hover:border-4   group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center  mt-6">
               <RiGlobalLine className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-200" />
             </div>
-            <h2 className=" mt-5 flex justify-center font-semibold   text-xl">
+            <h2 className=" mt-5 flex justify-center text-center font-semibold   text-xl">
               Chaîne d'approvisionnement mondiale{" "}
             </h2>
             <p className=" mt-14 max-w-screen-sm lg:max-h-[6rem]">
@@ -41,7 +41,7 @@ const WhyChoose = () => {
               transportées de manière efficace et fiable, peu importe leur
               destination.{" "}
             </p>
-            <Button1 text={"Learn More"} />
+            <Button1 text={"En savoir plus"} />
           </div>
           <div className="group p-5  space-y-10 flex-col flex items-center      rounded-lg     hover:rounded-lg mt-3 mb-8 transition-colors duration-500 delay-200">
             <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900     flex items-center justify-center w-24 h-24 rounded-full ml-auto mr-auto mt-6">
@@ -57,7 +57,7 @@ const WhyChoose = () => {
               les attentes de vos clients.
             </p>
 
-            <Button1 text={"Learn More"} />
+            <Button1 text={"En savoir plus"} />
           </div>
         </div>
       </div>

@@ -3,23 +3,32 @@ import { Carousel } from 'react-responsive-carousel';
 import ship2 from "../../assets/ship2.jpg";
 import air from "../../assets/air.jpg";
 import trucks from "../../assets/trucks.jpg";
+import pic from '../../assets/10001.jpg'
+import pic2 from "../../assets/10002.jpg";
+import pic3 from "../../assets/10003.jpg";
+import pic4 from "../../assets/10004.jpg";
+import pic5 from "../../assets/10005.jpg";
+import pic6 from '../../assets/pearLogo.jpg'
+import pic7 from '../../assets/congoCables.png'
 
 const OurPartners = () => {
     const testimonies = [
       {
-        name: "Paul",
-        mainImage: ship2,
-        title: "CEO",
+        name: pic,
+        mainImage: pic2,
+        title: pic3,
       },
       {
-        name: "Laup",
-        mainImage: air,
-        title: "CTO",
+        name: pic4,
+        mainImage:pic5,
+        title: pic6,
       },
       {
-        name: "Cena",
-        mainImage: trucks,
-        title: "COO",
+         
+        mainImage: pic7,
+        name:pic,
+        title:pic2
+         
       },
     ];
 
@@ -34,22 +43,31 @@ const OurPartners = () => {
           stopOnHover={true}
           infiniteLoop={true}
           useKeyboardArrows={true}
-          interval={2000}
+          interval={4000}
           autoPlay={true}
+
         >
           {testimonies.map((item) => {
             return (
-              <div className="flex md:flex-row bg-white flex-col items-center px-[1rem] justify-evenly py-8 ">
-                <div className="md:w-1/2 flex flex-col space-y-6">
-                  <p className="text-[#3A3A3A] font-roboto text-4xl">
-                    {item.name}
-                  </p>
-                  <p className="font-bold text-5xl font-roboto">{item.title}</p>
-                </div>
-                <div className="">
+              <div className="flex md:flex-row  md:space-x-4 space-y-4 md:space-y-0  flex-col items-center px-[2rem] justify-evenly py-8 ">
+                <div className=" md:w-1/3">
                   <img
                     src={item.mainImage}
-                    className="lg:h-[40vh] md:h-[30vh] hover:brightness-50 transition-all duration-300 translate-y-[-10]"
+                    className="lg:h-[40vh] h-[30vh] md:h-[30vh] object-fill hover:brightness-50 transition-all duration-300 translate-y-[-10]"
+                    alt=""
+                  />
+                </div>
+                <div className=" md:w-1/3">
+                  <img
+                    src={item.name}
+                    className="lg:h-[40vh] h-[30vh] md:h-[30vh] object-fill hover:brightness-50 transition-all duration-300 translate-y-[-10]"
+                    alt=""
+                  />
+                </div>
+                <div className=" md:w-1/3">
+                  <img
+                    src={item.title}
+                    className="lg:h-[40vh] h-[30vh] md:h-[30vh] object-fill hover:brightness-50 transition-all duration-300 translate-y-[-10]"
                     alt=""
                   />
                 </div>

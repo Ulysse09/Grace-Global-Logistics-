@@ -105,14 +105,16 @@ const Form = () => {
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Email
               </h2>
-              <p className="text-[#3A3A3A]">GraceGlobalLogistics@gmail.rw</p>
+              <p className="text-[#3A3A3A]">
+                salesinfo@gracegloballogistic.com
+              </p>
             </div>
 
             <div>
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Phone
               </h2>
-              <p className="text-[#3A3A3A]">+250 789 276 080</p>
+              <p className="text-[#3A3A3A]">(+243)818 740 0026</p>
             </div>
           </div>
         </div>

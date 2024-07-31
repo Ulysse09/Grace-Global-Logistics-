@@ -21,13 +21,28 @@ const Gallery = () => {
       src: ship2,
       height: 500,
     },
+    {
+      width: 500,
+      src: trucks,
+      height: 500,
+    },
+    {
+      width: 500,
+      src: air,
+      height: 500,
+    },
+    {
+      width: 500,
+      src: ship2,
+      height: 500,
+    },
   ];
   return (
     <>
       {/* header image */}
       <div className="backgroundImage2 -z-10 bg-cover bg-top relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
-        <div className="lg:pt-52 pt-34  ">
+        <div className="lg:pt-2 pt-34  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
             <span className="">
               <h1 className=" pb-10 text-white text-[2.7rem] font-bold  w-100 h-16 text-6xl mt-4">

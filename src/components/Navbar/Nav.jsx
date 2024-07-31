@@ -8,11 +8,12 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   const [openModal, setOpenModal] = useState(false);
   const handletoggle = () => {
-    return setOpenModal(!openModal);
+     return setOpenModal(!openModal);
+    
   };
 
   return (
-    <nav className="flex    items-center h-[5rem]   w-full lg:fixed bg-white  z-10  lg:px-[1rem] justify-around  ">
+    <nav className="flex    items-center h-[5rem] justify-between px-7   w-full lg:fixed bg-white  z-10  lg:px-[1rem] lg:justify-around  ">
       <Link to={"/"}>
         <img
           src={logo}
