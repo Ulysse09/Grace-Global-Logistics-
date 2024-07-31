@@ -67,7 +67,7 @@ const About = () => {
                 M
               </h1>
               <div>
-                <p className="pt-7 text-white font-bold text-3xl">
+                <p className="pt-7 text-white text-center pb-4 font-bold text-3xl">
                   Notre mission
                 </p>
                 <p className="text-white max-w-sm px-4 md:px-0">
@@ -84,7 +84,7 @@ const About = () => {
                 V
               </h1>
               <div>
-                <p className="pt-7 text-white text-3xl font-bold">
+                <p className="pt-7 text-white text-3xl text-center pb-4 font-bold">
                   Notre vision
                 </p>
                 <p className="text-white max-w-sm px-4 md:px-0">

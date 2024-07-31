@@ -45,7 +45,7 @@ const Form = () => {
         <div className="bg-image-2 " />
         <div className=" bg-slate-100  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%] mt-[-52rem]   lg:top-[54rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[6rem] pb-[5rem] w-full">
           <form className="flex flex-col px-8 py-0 md:w-2/3 space-y-10  ">
-            <h2 className="text-[rgb(3,57,108)] text-2xl font-semibold font-roboto">
+            <h2 className="text-[rgb(3,57,108)] text-2xl font-semibold text-center md:text-left  font-roboto">
               Contactez-nous{" "}
             </h2>
 
@@ -69,7 +69,7 @@ const Form = () => {
             />
             <input
               type="text"
-              placeholder="Subject"
+              placeholder="Sujet"
               value={subject}
               className=" outline-none hover:border-blue-500 border-2  border-gray-400 rounded-sm px-3 py-1"
               required
@@ -83,17 +83,17 @@ const Form = () => {
               required
               onChange={(e) => setText(e.target.value)}
             />
-            <div className="">
+            <div className="flex justify-center md:justify-start">
               <button
                 onClick={(e) => handleSubmit(e)}
                 className="px-4 py-2 bg-[#055589] focus:bg-black rounded-md text-white font-semibold"
               >
-                {isLoading ? "Sending mail..." : "Send mail"}
+                {isLoading ? "Envoi d'email..." : "Envoyer un mail"}
               </button>
             </div>
           </form>
 
-          <div className="md:w-1/3 flex flex-col items-center  space-y-2 pt-[4rem] pb-[4rem]  ">
+          <div className="md:w-1/3 flex flex-col items-center   space-y-2 pt-[4rem] pb-[4rem]  ">
             <div>
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Address
@@ -105,7 +105,7 @@ const Form = () => {
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Email
               </h2>
-              <p className="text-[#3A3A3A]">
+              <p className="text-[#3A3A3A] text-md max-w-screen-sm  ">
                 salesinfo@gracegloballogistic.com
               </p>
             </div>

@@ -51,7 +51,7 @@ const Gallery = () => {
             </span>
             <span>
               <p className=" text-white text-xl lg:text-2xl font-light font-roboto mt-4">
-                Connecting Continents, Fast-tracking Success
+                Votre partenaire logistique de confiance
               </p>
             </span>
           </div>

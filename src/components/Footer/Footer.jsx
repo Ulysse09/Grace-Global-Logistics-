@@ -1,4 +1,4 @@
-import black from "../../assets/Black.png";
+import logo from "../../assets/GGL.png";
 
 const Footer = () => {
   {
@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           {/* logo container --> */}
           <div>
-            <img src={black} className="h-[12rem]" alt="" />
+            <img src={logo} className="md:h-[5rem] rounded-md" alt="" />
           </div>
           {/* social links container --> */}
           <div class="flex justify-center space-x-4">
@@ -40,32 +40,25 @@ const Footer = () => {
             </a>
           </div>
           {/* list container  */}
-          <div class="flex justify-around space-x-32">
-            <div class="flex flex-col space-y-3 text-white">
-              <a href="" class="hover:underline text-white">
-                About
+          <div class="flex flex-col items-center md:flex-row  md:justify-around md:space-x-32">
+            <div class="flex font-roboto flex-col space-y-3 text-white">
+              <a href="/" class="hover:underline text-white">
+                Accueil
               </a>
-              <a href="#services" class="text-white">
+              <a href="/about" class="hover:underline text-white">
+                A propos
+              </a>
+              <a href="/service" class="text-white">
                 Services
               </a>
-              <a href="/" class="hover:text-pink-100">
-                Products
+              <a href="/contact " class="hover:text-pink-100">
+                Contactez-nous
               </a>
-              <a href="/" class="hover:text-pink-100">
-                About
-              </a>
-            </div>
-            <div class="flex flex-col space-y-3 text-white">
-              <a href="/" class="hover:text-brightRed">
-                Careers
-              </a>
-              <a href="/" class="hover:text-brightRed">
-                Community
-              </a>
-              <a href="/" class="hover:text-brightRed">
-                Privacy
+              <a href="/gallery" class="hover:text-pink-100">
+                Galerie
               </a>
             </div>
+            
           </div>
 
           <div class="flex flex-col justify-between">

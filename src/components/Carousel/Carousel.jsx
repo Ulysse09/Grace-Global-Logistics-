@@ -23,14 +23,15 @@ const CarouselComp = () => {
       },
     ];
   return (
-    <div className="relative  ">
+    <div className="relative h-[65vh] lg:h-full   ">
       <Carousel
         animationHandler="fade"
         swipeable={false}
         autoPlay={true}
         interval={8000}
         infiniteLoop={true}
-        className=" h-[60vh]  lg:h-full    "
+        className="     "
+        showIndicators={false}
       >
         {slide.map((item) => {
           return (
