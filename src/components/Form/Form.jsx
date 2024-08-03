@@ -94,18 +94,20 @@ const Form = () => {
           </form>
 
           <div className="md:w-1/3 flex flex-col items-center   space-y-2 pt-[4rem] pb-[4rem]  ">
-            <div>
+            <div className="space-y-2">
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Address
               </h2>
-              <p className="text-[#3A3A3A]">KK 64 Av, Goma</p>
+              <p className="text-[#3A3A3A]">
+                SIEGE SOCIALE: Avenu Touristes NO 59 Q. Mikeno,C/ Goma-RDC
+              </p>
             </div>
 
             <div>
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Email
               </h2>
-              <p className="text-[#3A3A3A] text-md max-w-screen-sm  ">
+              <p className="text-[#3A3A3A]   ">
                 salesinfo@gracegloballogistic.com
               </p>
             </div>
