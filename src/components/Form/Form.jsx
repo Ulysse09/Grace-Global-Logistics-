@@ -98,7 +98,7 @@ const Form = () => {
               <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
                 Address
               </h2>
-              <p className="text-[#3A3A3A]">
+              <p className="text-[#3A3A3A] max-w-xs text-center ">
                 SIEGE SOCIALE: Avenu Touristes NO 59 Q. Mikeno,C/ Goma-RDC
               </p>
             </div>
