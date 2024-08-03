@@ -126,8 +126,9 @@ const Contact = () => {
 
       {/* embedded map  */}
       <div className="">
+         
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.447462010169!2d30.081208408376916!3d-1.975310536754539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca78890734fdd%3A0xec8ce4c0ccc86431!2sBlue%20Channel%20Logistics!5e0!3m2!1sen!2srw!4v1710082804516!5m2!1sen!2srw"
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17794.315379208823!2d29.215795514955243!3d-1.6762036679736274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoma%20mikeno!5e0!3m2!1sen!2srw!4v1722692852013!5m2!1sen!2srw"
           className="w-full"
           height="450"
           loading="lazy"
