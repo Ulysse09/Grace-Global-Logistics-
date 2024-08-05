@@ -29,7 +29,7 @@ const Modal = ({ handletoggle }) => {
           onClick={handletoggle}
           className="hover:border-b-2 border-b-blue-500  transition-all duration-100"
         >
-          Our services
+          Nos service 
         </Link>
         <Link
           to="gallery"
@@ -44,7 +44,7 @@ const Modal = ({ handletoggle }) => {
           onClick={handletoggle}
           className="hover:border-b-2 border-b-blue-500  transition-all duration-100"
         >
-          Contact us
+          Contactez-nous
         </Link>
       </div>
     </>
