@@ -15,7 +15,7 @@ const Footer = () => {
       <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:space-y-0">
         <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-row md:space-y-0 md:items-center">
           <div class="mx-auto my-6  text-center text-white md:hidden">
-            Copyright &copy; All rights reserved.
+            Copyright &copy; 2024 All rights reserved.
           </div>
           {/* logo container --> */}
           <div>
@@ -27,20 +27,20 @@ const Footer = () => {
             <a href="/">
               <FaXTwitter size={34} className="text-white" />
             </a>
+            {/* link2 --> */}
             <a href="/">
               <CiFacebook size={34} className="text-white" />
             </a>
-            {/* link2 --> */}
+            {/* link3 --> */}
             <a href="/">
               <CiYoutube size={34} className="text-white" />
             </a>
-            {/* link3 --> */}
 
             {/* link4 --> */}
             <a href="/">
               <LiaLinkedin size={34} className="text-white" />
             </a>
-            {/* link1 --> */}
+            {/* link5 --> */}
             <a href="/">
               <CiInstagram size={34} className="text-white" />
             </a>
