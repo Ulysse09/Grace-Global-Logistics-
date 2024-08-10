@@ -17,7 +17,7 @@ const Form = () => {
 
     if (name && email && text && subject) {
       axios
-        .post("https://blu-channel-backend.onrender.com/send-email", {
+        .post("https://ggl-backend.onrender.com/send-email", {
           email,
           name,
           subject,
@@ -26,7 +26,7 @@ const Form = () => {
         .then(() => {
           toast.success("Email sent succesfully");
           console.log("Email sent succesfully");
-          alert("E-mail sent successfully")
+          alert("E-mail sent successfully");
           setEmail("");
           setName("");
           setSubject("");
@@ -35,7 +35,6 @@ const Form = () => {
         .catch((error) => {
           console.error("Error sending email", error);
           toast.error("Error sending email");
-          
         });
     } else return toast.error("Fill in the fields correctly");
   };
