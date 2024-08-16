@@ -7,6 +7,7 @@ import atruck from "../assets/Atruck.jpeg";
 
 import plane from "../assets/plane.jpg";
 import ship from "../assets/ship.jpg";
+import routier from '../assets/routier.jpeg'
 
 
 const OurServices = () => {
@@ -33,7 +34,7 @@ const OurServices = () => {
           </p>
         </div>
         <div className="lg:w-1/3 p-8 text-center space-y-4 flex flex-col items-center">
-          <img src={atruck} className="bg-cover brightness-75" alt="" />
+          <img src={routier} className="bg-cover brightness-75" alt="" />
           <h2 className="font-bold text-lg">Transport routier</h2>
           <p className="max-w-xs max-h-8   ">
             Transport routier fiable et flexible pour vos marchandises, avec

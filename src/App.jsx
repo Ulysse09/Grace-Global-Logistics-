@@ -58,7 +58,7 @@ function App() {
             />
 
             <p className="font-semibold text-[#3A3A3A]  lg:text-left md:text-right text-center py-4 lg:py-0">
-              Partenaire logistique de confiance du Congo{" "}
+              Partenaire logistique de confiance du RDCongo{" "}
             </p>
           </div>
           <div className="lg:space-y-3  space-y-[-1rem] flex-col flex lg:items-start items-center   ">
